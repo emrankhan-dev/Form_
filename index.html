@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <main id="main">
+        <form id="consent-form">
+            <h1>Join Our Newsletter</h1>
+            <label for="name">Name</label>
+            <input 
+                type="text" 
+                placeholder="Nevan Scott"
+                id="name"
+                name="name"
+                required 
+                />
+            <label for="email">Email address</label>
+            <input 
+                type="email" 
+                placeholder="nevanscott@mail.com"
+                id="email"
+                name="email"
+                required
+                />
+            <label for="number">Mobile number</label>
+            <input 
+                type="tel" 
+                placeholder="+8801719529599"
+                id="number"
+                name="number"
+                required
+                />
+                <p>This is for newsletter updates.</p>
+            <button type="submit">Send me the newsletter</button>
+        </form>
+        <div id="message" class="message" style="display: none;"></div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
